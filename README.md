@@ -1,16 +1,35 @@
-# quizz
+# Quizz
 
-A new Flutter project.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+## An App for Multiple Choice Question Tests
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+# Features
+. Authentication
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+. Questions and Answers can be modified from backend
+
+. Cache user data
+
+. Leaderboard
+
+# External Packages Used
+
+. Getx
+
+. get_storage
+
+. google_fonts
+
+.  firebase_core
+
+.  firebase_database
+
+.  cloud_firestore
+
+
+# App
+![ss](https://user-images.githubusercontent.com/111425523/211606476-0e8d392c-a0ab-4223-bba8-4e17e9504b44.jpg)
+![ss2](https://user-images.githubusercontent.com/111425523/211606517-f67b0a38-b89d-4eaa-9488-7fc4eb039577.jpg)
+
