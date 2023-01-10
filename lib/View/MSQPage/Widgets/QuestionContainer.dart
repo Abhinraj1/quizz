@@ -24,6 +24,7 @@ class QuestionContainer extends StatelessWidget {
         borderRadius: BorderRadius.circular(15)
       ),
       child:  PageView.builder(
+          physics: const NeverScrollableScrollPhysics(),
         controller: questionsPageController.value,
         itemCount: count.value,
         scrollDirection: Axis.vertical,

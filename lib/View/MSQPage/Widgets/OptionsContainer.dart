@@ -22,6 +22,7 @@ class OptionsContainer extends StatelessWidget {
           width: 310,
           height: 250,
           child: PageView.builder(
+            physics: const NeverScrollableScrollPhysics(),
             controller: optionsPageController.value,
             scrollDirection: Axis.horizontal,
             itemCount: questionData == [] ? 0 : questionData.length,
